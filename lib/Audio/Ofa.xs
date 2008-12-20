@@ -42,9 +42,9 @@ INIT:
         croak("Negative size");
     }
 CODE:
-    warn("Running ofa_create_print 0x%x, %d, %ld, %d, %d", samples, byteOrder, size, sRate, stereo);
+    /* warn("Running ofa_create_print 0x%x, %d, %ld, %d, %d", samples, byteOrder, size, sRate, stereo); */
     RETVAL = ofa_create_print(samples, byteOrder, size, sRate, stereo);
-    warn("RETVAL is %x", RETVAL);
+    /* warn("RETVAL is %x", RETVAL); */
 OUTPUT: RETVAL
 
 int
