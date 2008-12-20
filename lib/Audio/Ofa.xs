@@ -2,8 +2,6 @@
 #include "perl.h"
 #include "XSUB.h"
 #include <ofa1/ofa.h>
-#include <string.h>
-#include <stdio.h>
 
 
 MODULE = Audio::Ofa          PACKAGE = Audio::Ofa
@@ -12,12 +10,8 @@ SV *
 ofa_get_version()
 PREINIT:
     int major, minor, rev;
-    char buf[40];
 CODE:
-    memset(&buf, 0, sizeof(buf));
     ofa_get_version(&major, &minor, &rev);
-    /* -1 not strictly necessary, but better make sure */
-    /* snprintf(buf, sizeof(buf)-1, "%d.%d.%d", major, minor, rev); */
 
     RETVAL = newSVpvf("%d.%d.%d", major, minor, rev);
 OUTPUT:

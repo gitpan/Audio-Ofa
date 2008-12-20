@@ -4,7 +4,7 @@ use warnings;
 
 use base qw(Exporter DynaLoader);
 
-our $VERSION = '0.02';
+our $VERSION = '0.02_01';
 
 __PACKAGE__->bootstrap($VERSION);
 
@@ -19,12 +19,16 @@ __END__
 
 Audio::Ofa - Perl interface to libofa, an Acoustig Fingerprinting library
 
+=head1 VERSION
+
+This is version 0.02_01
+
 =head1 SYNOPSIS
 
 This module provides a direct interface to libofa.  For not-so-lowlevel and
 more practical assistance with audio fingerprints see L<Audio::Ofa::Util>.
 
-    use Audio::Ofa qw(ofa_get_version ofa_create_print)
+    use Audio::Ofa qw(ofa_get_version ofa_create_print);
 
 =head1 SUBROUTINES
 

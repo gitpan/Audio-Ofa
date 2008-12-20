@@ -5,3 +5,7 @@ Revision history for Audio-Ofa-Util
 
 0.02    2008-12-20
         Removed debugging output
+
+0.02_01 2008-12-21
+        Don't compare the whole fingerprint in base.t, only the beginning seems
+        to be portable.

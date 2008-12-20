@@ -2,12 +2,15 @@ NAME
     Audio::Ofa - Perl interface to libofa, an Acoustig Fingerprinting
     library
 
+VERSION
+    This is version 0.02_01
+
 SYNOPSIS
     This module provides a direct interface to libofa. For not-so-lowlevel
     and more practical assistance with audio fingerprints see
     Audio::Ofa::Util.
 
-        use Audio::Ofa qw(ofa_get_version ofa_create_print)
+        use Audio::Ofa qw(ofa_get_version ofa_create_print);
 
 SUBROUTINES
   ofa_get_version
