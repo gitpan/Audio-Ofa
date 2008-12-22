@@ -1,7 +1,6 @@
 Build.PL
 Changes
 COPYING
-lib/Audio/Ofa.o
 lib/Audio/Ofa.pm
 lib/Audio/Ofa.xs
 Makefile.PL

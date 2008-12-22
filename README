@@ -3,7 +3,7 @@ NAME
     library
 
 VERSION
-    This is version 0.02_01
+    This is version 0.02_02
 
 SYNOPSIS
     This module provides a direct interface to libofa. For not-so-lowlevel

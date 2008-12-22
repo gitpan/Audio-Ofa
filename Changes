@@ -9,3 +9,9 @@ Revision history for Audio-Ofa-Util
 0.02_01 2008-12-21
         Don't compare the whole fingerprint in base.t, only the beginning seems
         to be portable.
+
+0.02_02 2008-12-22
+        * Minor changes to the pkg-config code in Build.PL
+        * Add configure_requires for ExtUtils::PkgConfig -- I hope that all
+          testers support it yet; maybe I will have to find some PREREQ_FATAL
+          tricks to make them install dependencies and then run Build.PL again.
