@@ -4,7 +4,7 @@ use warnings;
 
 use base qw(Exporter DynaLoader);
 
-our $VERSION = '0.02_02';
+our $VERSION = '1.00';
 
 __PACKAGE__->bootstrap($VERSION);
 

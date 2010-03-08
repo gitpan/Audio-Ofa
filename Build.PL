@@ -17,13 +17,14 @@ my $builder = Module::Build->new(
     dist_version_from           => 'lib/Audio/Ofa.pm',
     configure_requires          => {
         'ExtUtils::PkgConfig' => 0,
-    },
-    build_requires              => {
         'Module::Build' => 0, # important if we are run through the generated
                               # Makefile.PL
+    },
+    build_requires              => {
         'Test::More'    => 0,
         'Compress::Zlib' => 0,
         'ExtUtils::PkgConfig' => 0,
+        'Module::Build' => 0,
     },
     no_index => {
         directory => 'example',

@@ -15,3 +15,8 @@ Revision history for Audio-Ofa-Util
         * Add configure_requires for ExtUtils::PkgConfig -- I hope that all
           testers support it yet; maybe I will have to find some PREREQ_FATAL
           tricks to make them install dependencies and then run Build.PL again.
+
+1.00    2010-03-08
+        * Add Module::Build to configure_requires
+        * Bumped the version number to 1.00 because the binding seems to work
+          well.
