@@ -1,6 +1,6 @@
 ---
 name: Audio-Ofa
-version: 1.00
+version: 1.01
 author:
   - 'Christoph Bussenius <pepe@cpan.org>'
 abstract: Bindings for libofa
@@ -13,5 +13,5 @@ build_requires:
 provides:
   Audio::Ofa:
     file: lib/Audio/Ofa.pm
-    version: 1.00
+    version: 1.01
 generated_by: Module::Build version 0.26

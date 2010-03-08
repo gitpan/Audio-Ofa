@@ -20,3 +20,6 @@ Revision history for Audio-Ofa-Util
         * Add Module::Build to configure_requires
         * Bumped the version number to 1.00 because the binding seems to work
           well.
+
+1.01   2010-03-08
+        * Fix pod error

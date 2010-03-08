@@ -4,7 +4,7 @@ use warnings;
 
 use base qw(Exporter DynaLoader);
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 __PACKAGE__->bootstrap($VERSION);
 
@@ -21,7 +21,7 @@ Audio::Ofa - Perl interface to libofa, an Acoustig Fingerprinting library
 
 =head1 VERSION
 
-This is version 0.02_02
+This is version 1.01
 
 =head1 SYNOPSIS
 
